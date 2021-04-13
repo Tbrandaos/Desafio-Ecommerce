@@ -11,7 +11,7 @@ namespace Ecommerce.Domain.Respository
         public static User Get(string username, string password)
         {
             var users = new List<User>();
-            users.Add(new User {Username = "string", Password = "string", Role = "admin" });
+            users.Add(new User {Username = "admin", Password = "admin", Role = "admin" });
 
             if (username == null)
             {
