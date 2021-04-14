@@ -97,7 +97,7 @@ namespace Ecommerce
                                 Name = "Bearer",
                                 In = ParameterLocation.Header
                             },
-                            new string[] {}
+                            Array.Empty<string>()
                     }
                 });
             });
